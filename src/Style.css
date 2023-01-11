@@ -1,0 +1,114 @@
+body{
+  background-color: aquamarine;
+
+}
+.mainBlock{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title{
+    text-align: center;
+    font-size:50px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: blueviolet;
+    margin:20px 0px;
+}
+.insideBlock{
+    /* border: 2px solid red; */
+    /* height: 60vh; */
+    width: 80vw;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+.content{
+text-align: center;
+/* border:2px solid red; */
+}
+.content input{
+    padding: 15px;
+    margin:10px;
+    width: 50%;
+   border:2px solid black;
+   border-radius: 10px;
+   font-size: 30px;
+}
+.content button{
+    padding: 4px 13px;
+    margin:10px;
+    border-radius: 30px;
+    font-size: 40px;
+    font-weight: bold;
+    /* border: 1px solid black; */
+    /* border: none; */
+    background-color: blueviolet;
+    color:white;
+}
+.content button:hover{
+    background-color: rgb(114, 199, 114);
+}
+
+.list{
+    display :flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    /* border:2px solid pink; */
+}
+.list li{
+    display: flex;
+    flex-direction: column;
+}
+
+.list input{
+width: 90%;
+padding :10px;
+margin:10px;
+}
+.upperList{
+    /* border:1px solid pink; */
+}
+.List{
+    display: flex; 
+    flex-direction: row;
+    align-items: left;
+    justify-content: stretch;
+    /* border:1px solid green; */
+    margin:10px;
+
+}
+.List button{
+    padding:2px 9px;
+    margin :10px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: blueviolet;
+    color:white;
+    /* border:none; */
+    /* border: 1px solid red; */
+    display: block;
+}
+.List button:hover{
+background-color: red
+}
+
+.List li{
+      padding:5px;
+    margin :10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: blueviolet;
+    /* width: 100%; */
+    display: inline;
+        /* border: 1px solid red; */
+
+}
+@media screen and (max-width: 800px) {
+    .insideBlock{
+        width: 95vw;
+    }
+}
